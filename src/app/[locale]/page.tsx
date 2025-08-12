@@ -1,6 +1,16 @@
+"use client"
 import Image from 'next/image';
+import { useTheme } from 'next-themes';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+  const { theme, setTheme, resolvedTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
@@ -15,6 +25,16 @@ export default function Home() {
           </li>
           <li className="tracking-[-.01em]">Save and see your changes instantly.</li>
         </ol>
+
+        {/* Toggle theme button */}
+        {mounted && (
+          <button
+            className="rounded px-4 py-2 border bg-background text-foreground"
+            onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
+          >
+            {resolvedTheme === 'dark' ? 'Chuyển sang Light' : 'Chuyển sang Dark'}
+          </button>
+        )}
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a

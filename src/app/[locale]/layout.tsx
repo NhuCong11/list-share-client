@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
+import { getMessages } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
 import { routing } from '@/i18n/routing';
 import { Locale } from '@/i18n/config';
 import { notFound } from 'next/navigation';
-import { getMessages } from 'next-intl/server';
-import { NextIntlClientProvider } from 'next-intl';
+import LayoutProvider from '@/contexts/LayoutProvider';
 
 export async function generateMetadata(): Promise<Metadata> {
   const messages = await getMessages();
@@ -39,5 +40,9 @@ export default async function RootLayout({
 
   const messages = await getMessages();
 
-  return <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>;
+  return (
+    <NextIntlClientProvider messages={messages}>
+      <LayoutProvider>{children}</LayoutProvider>
+    </NextIntlClientProvider>
+  );
 }
