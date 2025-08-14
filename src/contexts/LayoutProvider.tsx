@@ -4,13 +4,18 @@ import { AnimatePresence } from 'framer-motion';
 import { Toaster } from 'react-hot-toast';
 import { usePathname } from '@/i18n/routing';
 
+import AppHeader from '@/components/AppHeader';
+
 function LayoutProvider({ children }: { children: Readonly<React.ReactNode> }) {
   const pathname = usePathname();
 
   return (
     <ThemeProvider attribute="class" defaultTheme="light" enableSystem storageKey="theme" disableTransitionOnChange>
       <AnimatePresence mode="wait">
-        <div key={pathname}>{children}</div>
+        <div key={pathname}>
+          <AppHeader />
+          {children}
+        </div>
         <Toaster
           gutter={8}
           position="top-center"

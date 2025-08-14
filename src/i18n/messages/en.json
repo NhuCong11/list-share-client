@@ -6,5 +6,11 @@
     "en": "English",
     "zh": "中国人",
     "ko": "한국어"
+  },
+  "nav": {
+    "home": "Home",
+    "editor": "Editor",
+    "help": "Help",
+    "start": "Get Started"
   }
 }
