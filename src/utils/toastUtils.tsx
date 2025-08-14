@@ -1,5 +1,5 @@
 import toast from 'react-hot-toast';
-import { IconAlertOctagonFilled, IconInfoOctagonFilled } from '@tabler/icons-react';
+import { Info, TriangleAlert } from 'lucide-react';
 
 export enum ToastType {
   SUCCESS = 'success',
@@ -15,13 +15,13 @@ const toastSuccess = (message: string) => {
 
 const toastInfo = (message: string) => {
   toast(message, {
-    icon: <IconInfoOctagonFilled color="#74c0fc" />,
+    icon: <Info color="#74c0fc" />,
   });
 };
 
 const toastWarning = (message: string) => {
   toast(message, {
-    icon: <IconAlertOctagonFilled color="#ffa94d" />,
+    icon: <TriangleAlert color="#ffa94d" />,
   });
 };
 
