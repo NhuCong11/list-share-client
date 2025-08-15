@@ -12,5 +12,69 @@
     "editor": "Editor",
     "help": "Help",
     "start": "Get Started"
+  },
+  "home": {
+    "welcome": "Now with real-time collaboration",
+    "title": {
+      "01": "Create & Share",
+      "02": "Lists & Notes",
+      "03": "Instantly"
+    },
+    "desc": " No signup required. Create collaborative checklists and rich documents, share with anyone via link or QR code, and watch updates happen in real-time. Perfect for teams, notes, and project planning.",
+    "button": {
+      "btn1": "Start Writing",
+      "btn2": "Watch Demo"
+    },
+    "floating": {
+      "title": "Sample Checklist",
+      "list1": "Setup project workspace",
+      "list2": "Invite team members",
+      "list3": "Launch the application"
+    },
+    "features": {
+      "title": "Why Choose ListShare?",
+      "desc": "Built for modern teams and individuals who value simplicity and efficiency",
+      "whyChooses": {
+        "01": {
+          "title": "Rich Text Editing",
+          "desc": "Full-featured editor with formatting, checklists, and multimedia support."
+        },
+        "02": {
+          "title": "Checklist Mode",
+          "desc": "Switch between document and checklist modes with real-time collaboration."
+        },
+        "03": {
+          "title": "Real-time Collaboration",
+          "desc": "Watch changes happen live as team members edit and check off items together."
+        },
+        "04": {
+          "title": "No Login Needed",
+          "desc": "Share via link or QR code. Export to PDF, Word, or Markdown instantly."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Loved by Teams Worldwide",
+      "desc": "Join thousands of users who trust ListShare for their productivity needs",
+      "items": {
+        "01": {
+          "role": "Project Manager",
+          "content": "ListShare has transformed how our team collaborates. Real-time updates keep everyone in sync!"
+        },
+        "02": {
+          "role": "Event Coordinator",
+          "content": "Perfect for event planning. Love how easy it is to share checklists with vendors and clients."
+        },
+        "03": {
+          "role": "Freelancer",
+          "content": "Simple, clean, and exactly what I needed. No bloat, just pure functionality."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "desc": "Create your first checklist in under 10 seconds. No signup, no hassle.",
+      "btn": "Start Creating Now"
+    }
   }
 }

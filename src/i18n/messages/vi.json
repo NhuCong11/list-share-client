@@ -12,5 +12,69 @@
     "editor": "Trình soạn thảo",
     "help": "Trợ giúp",
     "start": "Bắt đầu"
+  },
+  "home": {
+    "welcome": "Giờ đây với tính năng cộng tác theo thời gian thực",
+    "title": {
+      "01": "Tạo & Chia sẻ",
+      "02": "Danh sách & Ghi chú",
+      "03": "Ngay lập tức"
+    },
+    "desc": "Không cần đăng ký. Tạo danh sách kiểm tra cộng tác và tài liệu phong phú, chia sẻ với bất kỳ ai qua liên kết hoặc mã QR, và xem các cập nhật diễn ra theo thời gian thực. Hoàn hảo cho làm việc nhóm, ghi chú và lập kế hoạch dự án.",
+    "button": {
+      "btn1": "Bắt đầu viết",
+      "btn2": "Xem bản demo"
+    },
+    "floating": {
+      "title": "Danh sách kiểm tra",
+      "list1": "Thiết lập môi trường dự án",
+      "list2": "Mời các thành viên nhóm",
+      "list3": "Khởi chạy ứng dụng"
+    },
+    "features": {
+      "title": "Tại sao chọn ListShare?",
+      "desc": "Được thiết kế cho các nhóm hiện đại và cá nhân đề cao sự đơn giản và hiệu quả",
+      "whyChooses": {
+        "01": {
+          "title": "Soạn thảo văn bản phong phú",
+          "desc": "Trình soạn thảo đầy đủ tính năng với định dạng, danh sách kiểm tra và hỗ trợ đa phương tiện."
+        },
+        "02": {
+          "title": "Chế độ danh sách kiểm tra",
+          "desc": "Chuyển đổi giữa chế độ tài liệu và danh sách kiểm tra với khả năng cộng tác theo thời gian thực."
+        },
+        "03": {
+          "title": "Cộng tác thời gian thực",
+          "desc": "Xem thay đổi diễn ra trực tiếp khi các thành viên nhóm chỉnh sửa và đánh dấu hoàn thành."
+        },
+        "04": {
+          "title": "Không cần đăng nhập",
+          "desc": "Chia sẻ qua liên kết hoặc mã QR. Xuất sang PDF, Word hoặc Markdown ngay lập tức."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Được các nhóm trên toàn thế giới yêu thích",
+      "desc": "Tham gia hàng nghìn người dùng tin tưởng ListShare cho nhu cầu năng suất của họ",
+      "items": {
+        "01": {
+          "role": "Quản lý dự án",
+          "content": "ListShare đã thay đổi cách nhóm chúng tôi cộng tác. Các cập nhật theo thời gian thực giúp mọi người luôn đồng bộ!"
+        },
+        "02": {
+          "role": "Điều phối sự kiện",
+          "content": "Hoàn hảo cho việc lập kế hoạch sự kiện. Thích cách dễ dàng chia sẻ danh sách kiểm tra với nhà cung cấp và khách hàng."
+        },
+        "03": {
+          "role": "Freelancer",
+          "content": "Đơn giản, gọn gàng và đúng thứ tôi cần. Không rườm rà, chỉ có chức năng thuần túy."
+        }
+      }
+    },
+    "cta": {
+      "title": "Sẵn sàng bắt đầu chưa?",
+      "desc": "Tạo danh sách đầu tiên của bạn trong chưa đầy 10 giây. Không cần đăng ký, không phiền phức.",
+      "btn": "Bắt đầu tạo ngay"
+    }
   }
 }

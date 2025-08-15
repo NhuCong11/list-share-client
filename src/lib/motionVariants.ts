@@ -5,6 +5,19 @@ export const motionVariants: Record<string, Variants> = {
     hidden: { opacity: 0, y: 40 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } },
   },
+  'fade-up-inview': {
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: 'easeOut' } },
+  },
+
+  'fade-up-delay': {
+    hidden: { opacity: 0, y: 30 },
+    visible: (index: number = 0) => ({
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.8, delay: index * 0.2, ease: 'easeOut' },
+    }),
+  },
   'fade-down': {
     hidden: { opacity: 0, y: -40 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } },
@@ -26,7 +39,7 @@ export const motionVariants: Record<string, Variants> = {
     visible: {
       y: [0, -10, 0],
       transition: {
-        duration: 2,
+        duration: 4,
         ease: 'easeInOut',
         repeat: Infinity,
       },

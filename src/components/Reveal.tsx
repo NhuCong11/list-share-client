@@ -8,9 +8,10 @@ interface RevealProps {
   children: React.ReactNode;
   variant?: keyof typeof motionVariants;
   threshold?: number; // % xuất hiện mới trigger, mặc định 20%
+  custom?: number;
 }
 
-export default function Reveal({ children, variant = 'fade-up', threshold = 0.2 }: RevealProps) {
+export default function Reveal({ children, variant = 'fade-up', threshold = 0.2, custom }: RevealProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [isInView, setIsInView] = useState(false);
 
@@ -28,7 +29,13 @@ export default function Reveal({ children, variant = 'fade-up', threshold = 0.2 
   }, [threshold]);
 
   return (
-    <motion.div ref={ref} variants={motionVariants[variant]} initial="hidden" animate={isInView ? 'visible' : 'hidden'}>
+    <motion.div
+      ref={ref}
+      variants={motionVariants[variant]}
+      initial="hidden"
+      animate={isInView ? 'visible' : 'hidden'}
+      custom={custom}
+    >
       {children}
     </motion.div>
   );
