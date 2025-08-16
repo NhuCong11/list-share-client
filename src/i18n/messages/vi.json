@@ -76,5 +76,52 @@
       "desc": "Tạo danh sách đầu tiên của bạn trong chưa đầy 10 giây. Không cần đăng ký, không phiền phức.",
       "btn": "Bắt đầu tạo ngay"
     }
+  },
+  "help": {
+    "title": {
+      "01": "Cách sử dụng",
+      "02": "Bắt đầu",
+      "03": "Chia sẻ & Cộng tác",
+      "04": "Câu hỏi thường gặp"
+    },
+    "desc": "Bắt đầu với danh sách kiểm tra cộng tác trong chưa đầy một phút. Thật đơn giản.",
+    "started": {
+      "01": "Nhấp vào \"Tạo danh sách kiểm tra của bạn\" để bắt đầu",
+      "02": "Thêm tiêu đề và mô tả",
+      "03": "Nhập mục và nhấn Enter để thêm",
+      "04": "Nhấp \"Chia sẻ & Cộng tác\" để lấy liên kết"
+    },
+    "sharing": {
+      "01": "Chia sẻ qua liên kết trực tiếp hoặc mã QR",
+      "02": "Cập nhật theo thời gian thực cho tất cả người xem",
+      "03": "Không cần đăng ký để xem hoặc chỉnh sửa",
+      "04": "Hoạt động trên mọi thiết bị hoặc trình duyệt"
+    },
+    "qa": {
+      "01": {
+        "question": "Tôi có cần tạo tài khoản không?",
+        "answer": "Không! Bạn có thể tạo và chia sẻ danh sách kiểm tra ngay lập tức mà không cần đăng ký. Tuy nhiên, việc tạo tài khoản cho phép bạn lưu danh sách kiểm tra vĩnh viễn và truy cập từ bất kỳ thiết bị nào."
+      },
+      "02": {
+        "question": "Làm thế nào để sắp xếp lại các mục?",
+        "answer": "Di chuột qua bất kỳ mục nào và sử dụng biểu tượng kéo (≡) ở bên trái để kéo và thả theo thứ tự bạn muốn. Thay đổi sẽ được lưu tự động."
+      },
+      "03": {
+        "question": "Tôi có thể chỉnh sửa trực tiếp không?",
+        "answer": "Có! Nhấp vào văn bản của bất kỳ mục nào trong danh sách để chỉnh sửa trực tiếp. Thay đổi sẽ được lưu và đồng bộ tự động trên tất cả thiết bị."
+      },
+      "04": {
+        "question": "Danh sách hoạt động trong bao lâu?",
+        "answer": "Danh sách không có tài khoản sẽ hoạt động trong 30 ngày. Với tài khoản miễn phí, chúng sẽ được lưu vĩnh viễn. Bạn cũng có thêm các tính năng như mẫu và quản lý nhóm."
+      },
+      "05": {
+        "question": "Nhiều người có thể cùng chỉnh sửa không?",
+        "answer": "Hoàn toàn có thể! Đây là một trong những tính năng cốt lõi. Bất kỳ ai có liên kết đều có thể xem và chỉnh sửa trong thời gian thực. Bạn sẽ thấy thay đổi ngay lập tức khi thành viên nhóm làm việc."
+      },
+      "06": {
+        "question": "Làm thế nào để chia sẻ danh sách?",
+        "answer": "Nhấp nút 'Chia sẻ' trên bất kỳ danh sách nào để lấy liên kết riêng. Bạn cũng có thể tạo mã QR để chia sẻ qua di động. Danh sách hoạt động trên mọi thiết bị có trình duyệt web."
+      }
+    }
   }
 }

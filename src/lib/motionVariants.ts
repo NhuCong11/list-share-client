@@ -26,9 +26,25 @@ export const motionVariants: Record<string, Variants> = {
     hidden: { opacity: 0, x: -40 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.6, ease: 'easeOut' } },
   },
+  'fade-left-delay': {
+    hidden: { opacity: 0, x: -30 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.6, delay: 0.2, ease: 'easeOut' },
+    },
+  },
   'fade-right': {
     hidden: { opacity: 0, x: 40 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.6, ease: 'easeOut' } },
+  },
+  'fade-right-delay': {
+    hidden: { opacity: 0, x: 30 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.6, delay: 0.4, ease: 'easeOut' },
+    },
   },
   zoom: {
     hidden: { opacity: 0, scale: 0.8 },

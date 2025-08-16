@@ -76,5 +76,52 @@
       "desc": "Create your first checklist in under 10 seconds. No signup, no hassle.",
       "btn": "Start Creating Now"
     }
+  },
+  "help": {
+    "title": {
+      "01": "How to Use",
+      "02": "Getting Started",
+      "03": "Sharing & Collaboration",
+      "04": "Frequently Asked Questions"
+    },
+    "desc": "Get started with collaborative checklists in under a minute. It's that simple.",
+    "started": {
+      "01": "Click \"Create Your Checklist\" to start",
+      "02": "Add a title and description",
+      "03": "Type items and press Enter to add",
+      "04": "Click \"Share & Collaborate\" to get your link"
+    },
+    "sharing": {
+      "01": "Share via direct link or QR code",
+      "02": "Real-time updates for all viewers",
+      "03": "No signup required to view or edit",
+      "04": "Works on any device or browser"
+    },
+    "qa": {
+      "01": {
+        "question": "Do I need to create an account?",
+        "answer": "No! You can create and share checklists instantly without signing up. However, creating an account lets you save your checklists permanently and access them from any device."
+      },
+      "02": {
+        "question": "How do I reorder checklist items?",
+        "answer": "Hover over any item and use the drag handle (≡) that appears on the left to drag and drop items into your preferred order. Changes are saved automatically."
+      },
+      "03": {
+        "question": "Can I edit items inline?",
+        "answer": "Yes! Click on any checklist item text to edit it directly. Changes are saved and synced automatically across all devices viewing the checklist."
+      },
+      "04": {
+        "question": "How long do checklists stay active?",
+        "answer": "Checklists without accounts stay active for 30 days. With a free account, they're saved permanently. You'll also get access to additional features like templates and team management."
+      },
+      "05": {
+        "question": "Can multiple people edit the same checklist?",
+        "answer": "Absolutely! That's one of our core features. Anyone with the link can view and edit the checklist in real-time. You'll see changes happen instantly as team members check off items."
+      },
+      "06": {
+        "question": "How do I share a checklist?",
+        "answer": "Click the 'Share' button on any checklist to get a unique link. You can also generate a QR code for easy mobile sharing. The checklist works on any device with a web browser."
+      }
+    }
   }
 }
