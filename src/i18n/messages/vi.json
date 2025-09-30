@@ -123,5 +123,20 @@
         "answer": "Nhấp nút 'Chia sẻ' trên bất kỳ danh sách nào để lấy liên kết riêng. Bạn cũng có thể tạo mã QR để chia sẻ qua di động. Danh sách hoạt động trên mọi thiết bị có trình duyệt web."
       }
     }
+  },
+  "editor": {
+    "place01": "Tài liệu chưa có tiêu đề",
+    "btns": {
+      "docs": "Tài liệu",
+      "checklist": "Danh sách",
+      "copy": "Sao chép",
+      "export": "Xuất",
+      "save": "Lưu bản nháp"
+    },
+    "toast": {
+      "copy": "Nội dung đã được sao chép vào clipboard",
+      "export": "Xuất thành công",
+      "save": "Lưu bản nháp thành công"
+    }
   }
 }

@@ -123,5 +123,20 @@
         "answer": "Click the 'Share' button on any checklist to get a unique link. You can also generate a QR code for easy mobile sharing. The checklist works on any device with a web browser."
       }
     }
+  },
+  "editor": {
+    "place01": "Untitled Document",
+    "btns": {
+      "docs": "Document",
+      "checklist": "Checklist",
+      "copy": "Copy",
+      "export": "Export",
+      "save": "Save Draft"
+    },
+    "toast": {
+      "copy": "Content copied to clipboard",
+      "export": "Exported successfully",
+      "save": "Draft saved successfully"
+    }
   }
 }

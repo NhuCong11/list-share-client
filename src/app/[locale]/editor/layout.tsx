@@ -1,4 +1,4 @@
-function HelpLayout({
+function EditorLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -8,8 +8,8 @@ function HelpLayout({
 
 export const generateMetadata = () => {
   return {
-    title: 'ListShare | Help',
+    title: 'ListShare | Editor',
   };
 };
 
-export default HelpLayout;
+export default EditorLayout;
