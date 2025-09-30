@@ -44,7 +44,7 @@ function Editor() {
             </div>
 
             {/* Mode Toggle */}
-            <div className="flex items-center gap-2 bg-muted/30 p-1 rounded-xl">
+            <div className="flex items-center gap-2">
               <Toggle
                 pressed={mode === 'document'}
                 onPressedChange={() => setMode('document')}
@@ -93,7 +93,7 @@ function Editor() {
           <Card className="premium-shadow-lg border-0 mt-3 card-gradient backdrop-blur-sm overflow-hidden">
             <CardContent className="p-0">
               <EditorToolbar mode={mode} />
-              <div className="p-8">
+              <div className="p-5 py-0">
                 <AnimatePresence mode="wait">
                   {mode === 'document' ? (
                     <Reveal variant="slide-horizontal">

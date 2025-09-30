@@ -30,8 +30,8 @@ function EditorToolbar({ mode }: EditorToolbarProps) {
   }
 
   return (
-    <div className="sticky top-0 z-10 bg-card/80 backdrop-blur-sm border-b border-border/50 p-4">
-      <div className="flex items-center gap-1 flex-wrap">
+    <div className="sticky top-0 z-10 bg-card/80 backdrop-blur-sm border-b border-border/50 p-4 py-0">
+      <div className="flex items-center gap-1 flex-wrap mb-2">
         {/* Undo/Redo */}
         <Button variant="ghost" size="sm" className="h-8 w-8 p-0 cursor-pointer">
           <Undo className="h-4 w-4" />
